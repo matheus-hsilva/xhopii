@@ -1,13 +1,9 @@
-body{
-    background-color: #fb4e0f;
-}
-
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0% 20%;
-    background-color: #d3d3d3;
+    background-color: #ffffff;
 }
 
 .cabecalho-logo{
@@ -33,6 +29,114 @@ body{
 }
 
 .cabecalho-ajuda{
+    text-decoration: none;
+    color: #fb4e0f;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    background-color: #fb4e0f;
+}
+
+.login-formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    padding: 40px 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.login-formulario h2{
+    font-weight: 500;
+}
+
+.login-formulario form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+
+.login-formulario form input{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #9f9f9f;
+}
+
+.login-formulario form button{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #fb4e0f;
+    color: #ffffff;
+}
+
+.formulario-ajuda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario-ajuda a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(6, 77, 182);
+}
+
+.formulario-separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    color: #787878;
+}
+
+.formulario-separador hr{
+   width: 100%;
+}
+
+.formulario-formas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario-formas a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #1e1e1e;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+    padding: 7px 11px;
+}
+
+.formulario-formas img{
+    height: 25px;
+}
+
+.formulario-cadastro{
+    color: #787878;
+}
+
+.formulario-cadastro a{
     text-decoration: none;
     color: #fb4e0f;
 }
