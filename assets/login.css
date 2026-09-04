@@ -1,0 +1,38 @@
+body{
+    background-color: #fb4e0f;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 20%;
+    background-color: #d3d3d3;
+}
+
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.cabecalho-logo img{
+    width: 40px;
+}
+
+.cabecalho-logo h1{
+    font-weight: 500;   
+    color: #fb4e0f;
+}
+
+.cabecalho-logo a{
+    text-decoration: none;
+    color: #1e1e1e;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.cabecalho-ajuda{
+    text-decoration: none;
+    color: #fb4e0f;
+}

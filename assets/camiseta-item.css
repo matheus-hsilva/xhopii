@@ -1,0 +1,107 @@
+/* Dvisão das Opções de Cores */
+.principal-cores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 320px;
+}
+
+.principal-cores img{
+    width: 70px;
+    opacity: 0.7;
+}
+
+.principal-cores .cor-escolhida{
+    opacity: 1;
+    border: #fb4e0f solid 2px;
+}
+
+/* Dvisão das Opção Escolhida */
+.principal-camisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-camisa img{
+    height: 320px;
+}
+
+/* Dvisão das Informações */
+.principal-info{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 320px;
+}
+
+.principal-info .info-titulo{
+    margin: 0px 0px 10px 0px;
+}
+
+.principal-info .info-preco{
+    font-size: 1.5em;
+    color: #fb4e0f;
+}
+
+.principal-info .info-disponibilidade{
+    font-size: 0.8em;
+     margin: 5px 0px;
+}
+
+.principal-info .info-modelo{
+    font-size: 0.8em;
+}
+
+.principal-info .info-cores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+}
+
+.principal-info .info-cores a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #000000;
+    border: #b0b0b0 solid 1px;
+    margin: 0px 10px;
+    padding: 7px;
+}
+
+.principal-info .info-tamanho{
+    font-size: 0.8em;
+}
+
+.principal-info .info-medidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+}
+
+.principal-info .info-medidas a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #000000;
+    border: #b0b0b0 solid 1px;
+    margin: 0px 10px;
+    padding: 7px 10px;
+}
+
+.principal-info .info-tamanho-escolhido{
+    font-size: 0.8em;
+    margin: 0px 0px 15px 0px;
+}
+
+.principal-info .info-botao{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #fb4e0f;
+    padding: 15px 10px;
+    font-size: 0.8em;
+}
