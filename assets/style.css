@@ -12,20 +12,34 @@
 /* Cabeçalho Geral */
 .cabecalho{
     width: 100%;
+    background-color: #fb4e0f;
 }
 
-.cabecalho-logo{
+.cabecalho-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+}
+
+.info-logo{
     display: flex;
     align-items: center;
     height: 60px;
 }
 
-.cabecalho-logo img{
+.info-logo img{
     width: 40px;
 }
 
-.cabecalho-logo h1{
+.info-logo h1{
     font-weight: 500;   
+    color: #ffffff;
+}
+
+.info-sair a{
+    text-decoration: none;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
