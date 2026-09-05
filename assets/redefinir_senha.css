@@ -85,6 +85,11 @@
     height: 40px;
     padding-left: 20px;
     border: 1px solid #9f9f9f;
+    transition-duration: 0.4s;
+}
+
+.redefinir-formulario form input:hover{
+    border: 1px solid #fb4e0f;
 }
 
 .redefinir-formulario form button{
@@ -93,4 +98,12 @@
     border: 0;
     background-color: #fb4e0f;
     color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.redefinir-formulario form button:hover{
+    background-color: transparent;
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
