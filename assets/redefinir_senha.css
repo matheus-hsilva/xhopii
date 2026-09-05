@@ -1,0 +1,96 @@
+/* Cabeçalho do Redefinir Senha*/
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 20%;
+    background-color: #d4d4d4;
+}
+
+.cabecalho-logo{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.cabecalho-logo img{
+    width: 40px;
+}
+
+.cabecalho-logo h1{
+    font-weight: 500;   
+    color: #fb4e0f;
+}
+
+.cabecalho-logo p{
+    color: #1e1e1e;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.cabecalho-ajuda{
+    text-decoration: none;
+    color: #fb4e0f;
+}
+
+
+
+/* Formulário de Redefinir Senha*/
+.redefinir-senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    background-color: #ffffff;
+}
+
+.redefinir-formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    padding: 20px 40px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 11px rgba(37, 37, 37, 0.35);
+    border-radius: 5px;
+}
+
+.redefinir-formulario a{
+    width: 100%;
+    margin-right: 30px;
+}
+
+.redefinir-formulario img{
+    height: 20px;
+}
+
+.redefinir-formulario h2{
+    font-weight: 500;
+}
+
+.redefinir-formulario form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+}
+
+.redefinir-formulario form input{
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #9f9f9f;
+}
+
+.redefinir-formulario form button{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #fb4e0f;
+    color: #ffffff;
+}
