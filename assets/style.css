@@ -49,7 +49,7 @@
     align-items: center;
     height: 50px;
     width: 100%;
-    background-color: #d4d4d4;
+    background-color: #ff7300;
 }
 
 .menu-itens{
@@ -62,7 +62,7 @@
 
 .menu-itens a{
     text-decoration: none;
-    color: #fb4e0f ;
+    color: #ffffff ;
 }
 
 .menu-itens li{
@@ -166,7 +166,6 @@
 
 .rodape hr{
     width: 100%;
-    color: #787878;
 }
 
 .rodape-copyright{
