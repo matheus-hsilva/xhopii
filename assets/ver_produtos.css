@@ -1,26 +1,18 @@
-.descobertas{
+.produtos{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    height: 620px;
-    padding: 0% 10%;
+    padding: 3% 10%;
 }
 
-.descobertas-titulo{
+.produtos-titulo{
     color: #ff7300;
 }
 
-.descobertas hr{
-    width: 100%;
-    height: 1px;
-    background-color: #ff7300;
-    border: none;
-}
-
-.descobertas-itens{
+.produtos-itens{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -32,16 +24,17 @@
 .itens-descricao{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     border-radius: 7px;
     box-shadow: 1px 1px 20px rgba(74, 74, 74, 0.4);
-    padding: 5px 7px;
+    padding: 30px 20px;
 }
 
 .itens-descricao img{
     width: 200px;
+    margin: auto;
 }
 
 .itens-descricao p{
@@ -51,6 +44,28 @@
 
 .itens-descricao p:first-of-type{
     width: 100%;
+}
+
+.descricao-fabricante{
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    width: 185px;
+}
+
+.descricao-fabricante p:nth-child(2){
+    color: #787878;
+}
+
+.descricao-texto{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+     width: 200px;
+}
+
+.descricao-texto p:nth-child(2){
+    color: #787878;
 }
 
 .descricao-disponibilidade{
