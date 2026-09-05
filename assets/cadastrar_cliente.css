@@ -39,6 +39,11 @@
     height: 40px;
     padding-left: 20px;
     border: 1px solid #9f9f9f;
+    transition-duration: 0.4s;
+}
+
+.cadastro-formulario form input:hover{
+    border: 1px solid #fb4e0f;
 }
 
 .cadastro-formulario form input[type="file"]{
@@ -68,4 +73,11 @@
     text-decoration: none;
     background-color: #fb4e0f;
     color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.cadastro-formulario form a:hover{
+    background-color: transparent;
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
