@@ -1,3 +1,13 @@
+.section-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3% 10%;
+}
+
+
+
 /* Dvisão das Opções de Cores */
 .principal-cores{
     display: flex;
@@ -14,8 +24,10 @@
 
 .principal-cores .cor-escolhida{
     opacity: 1;
-    border: #fb4e0f solid 2px;
+    border: 2px solid #fb4e0f;
 }
+
+
 
 /* Dvisão das Opção Escolhida */
 .principal-camisa{
@@ -28,17 +40,16 @@
     height: 320px;
 }
 
+
+
 /* Dvisão das Informações */
 .principal-info{
     display: flex;
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    gap: 10px;
     height: 320px;
-}
-
-.principal-info .info-titulo{
-    margin: 0px 0px 10px 0px;
 }
 
 .principal-info .info-preco{
@@ -48,7 +59,6 @@
 
 .principal-info .info-disponibilidade{
     font-size: 0.8em;
-     margin: 5px 0px;
 }
 
 .principal-info .info-modelo{
@@ -59,17 +69,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     list-style: none;
     height: 50px;
 }
 
 .principal-info .info-cores a{
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-decoration: none;
     color: #000000;
-    border: #b0b0b0 solid 1px;
-    margin: 0px 10px;
+    border: 1px solid #b0b0b0;
     padding: 7px;
+    transition-duration: 0.5s;
+}
+
+.principal-info .info-cores a:hover{
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
 
 .principal-info .info-tamanho{
@@ -80,28 +96,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     list-style: none;
     height: 50px;
 }
 
 .principal-info .info-medidas a{
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-decoration: none;
     color: #000000;
-    border: #b0b0b0 solid 1px;
-    margin: 0px 10px;
+    border: 1px solid #b0b0b0;
     padding: 7px 10px;
+    transition-duration: 0.5s;
+}
+
+.principal-info .info-medidas a:hover{
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
 
 .principal-info .info-tamanho-escolhido{
     font-size: 0.8em;
-    margin: 0px 0px 15px 0px;
 }
 
 .principal-info .info-botao{
     text-decoration: none;
     color: #ffffff;
     background-color: #fb4e0f;
+    border: 1px solid transparent;
     padding: 15px 10px;
-    font-size: 0.8em;
+    margin-top: 10px;
+    font-size: 0.9em;
+    transition-duration: 0.5s;
+}
+
+.principal-info .info-botao:hover{
+    background-color: transparent;
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }

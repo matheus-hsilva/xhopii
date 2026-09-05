@@ -76,6 +76,11 @@
     height: 40px;
     padding-left: 20px;
     border: 1px solid #9f9f9f;
+    transition-duration: 0.4s;
+}
+
+.login-formulario form input:hover{
+    border: 1px solid #fb4e0f;
 }
 
 .login-formulario form a{
