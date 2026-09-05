@@ -45,7 +45,7 @@
     padding: 2% 0%;
     background-color: #fb4e0f;
 }
-
+  
 .login-formulario{
     display: flex;
     justify-content: space-between;
@@ -88,6 +88,13 @@
     text-decoration: none;
     background-color: #fb4e0f;
     color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.login-formulario form a:hover{
+    background-color: transparent;
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
 
 .formulario-ajuda{
@@ -134,6 +141,12 @@
     border: 1px solid #9f9f9f;
     border-radius: 4px;
     padding: 7px 11px;
+    transition-duration: 0.5s;
+}
+
+.formulario-formas a:hover{
+    border: 1px solid #fb4e0f;
+    color: #fb4e0f;
 }
 
 .formulario-formas img{
