@@ -1,3 +1,5 @@
+
+/* Configurações Gerais*/
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+/* Cabeçalho Geral */
 .cabecalho{
     width: 100%;
 }
@@ -30,7 +35,7 @@
     align-items: center;
     height: 50px;
     width: 100%;
-    background-color: #c9c9c9;
+    background-color: #d4d4d4;
 }
 
 .menu-itens{
@@ -56,4 +61,101 @@
     align-items: center;
     width: 100%;
     height: 450px;
+}
+
+
+
+/* Rodapé Geral */ 
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 370px;
+    padding: 0% 10%;
+    background-color: #d4d4d4;
+}
+
+.rodape-informacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    height: 250px;
+    margin: 40px 0px;
+}
+
+.rodape-informacoes p{
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.rodape-informacoes ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+    list-style-type: none;
+    font-size: 0.85rem;
+    color: #787878;
+}
+
+.rodape-pagamento{
+    width: 160px;
+}
+
+.pagamento-imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pagamento-imagens img{
+    width: 40px;
+}
+
+.rodape-seguir ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape-seguir a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.rodape-seguir img{
+    height: 17px;
+}
+
+.qrcode-imagens{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qrcode-imagens img{
+    height: 90px;
+}
+
+.rodape hr{
+    width: 100%;
+    color: #787878;
+}
+
+.rodape-copyright{
+    color: #787878;
+    margin: 20px 0px
 }

@@ -1,9 +1,11 @@
+
+/* Cabeçalho do Login*/
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0% 20%;
-    background-color: #ffffff;
+    background-color: #d4d4d4;
 }
 
 .cabecalho-logo{
@@ -33,6 +35,9 @@
     color: #fb4e0f;
 }
 
+
+
+/* Formulário de Login */
 .login{
     display: flex;
     justify-content: center;
