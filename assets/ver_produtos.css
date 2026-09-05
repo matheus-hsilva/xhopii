@@ -21,6 +21,15 @@
     width: 100%;
 }
 
+.produtos-itens a{
+    text-decoration: none;
+}
+
+.produtos-itens a:hover{
+    border: 2px solid #fb4e0f;
+    border-radius: 7px;
+}
+
 .itens-descricao{
     display: flex;
     justify-content: center;
