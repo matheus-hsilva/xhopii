@@ -18,14 +18,14 @@
 }
 
 .funcionarios table td, th{
-    padding: 5px 40px;
+    padding: 5px 17px;
     border: 1px solid #787878;
     font-size: 0.9rem;
     color: #1e1e1e;
 }
 
 .funcionarios table th{
-    padding: 15px 40px;
+    padding: 15px 17px;
     background-color: #d4d4d4;
 }
 
