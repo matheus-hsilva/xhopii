@@ -12,22 +12,38 @@
     color: #ff7300;
 }
 
+.funcionarios-tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
 .funcionarios table{
     border-collapse: collapse;
     text-align: left;
+    width: 100%;
+}
+
+.funcionarios table tr{
+    border-bottom: 1px solid #78787874;
+}
+
+.funcionarios table tr:last-child{
+    border: none;
 }
 
 .funcionarios table td, th{
     padding: 5px 17px;
-    border: 1px solid #78787874;
     font-size: 0.9rem;
     color: #1e1e1e;
 }
 
 .funcionarios table th{
     padding: 15px 17px;
-    background-color: #d4d4d4;
 }
+
 
 .funcionarios table img{
     height: 40px;
