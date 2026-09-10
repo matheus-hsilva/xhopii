@@ -20,13 +20,8 @@
 .principal-cores img{
     width: 70px;
     opacity: 0.7;
+    cursor: pointer;
 }
-
-.principal-cores .cor-escolhida{
-    opacity: 1;
-    border: 2px solid #fb4e0f;
-}
-
 
 
 /* Dvisão das Opção Escolhida */
