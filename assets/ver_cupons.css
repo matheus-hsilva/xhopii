@@ -1,0 +1,110 @@
+.cupons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    padding: 2% 10%;
+    background-color: #9f9f9f;
+}
+
+.cupons-cadastro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.cupons-cadastro button{
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    background-color: #ff7300;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cupons-cadastro button:hover{
+    background-color: #ffffff;
+    border: 2px solid #ff7300;
+    color: #ff7300;
+}
+
+.cupons-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.cards-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.cards-item img{
+    height: 90px;
+}
+
+.item-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.item-descricao p{
+    font-size: 0.85rem;
+    color: #787878;
+}
+
+.item-descricao p:first-child{
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.item-botoes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 9px;
+}
+
+.item-botoes button{
+    padding: 7px 12px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.item-botoes button:first-child{
+    background-color: #ff7300;
+}
+
+.item-botoes button:first-child:hover{
+    background-color: transparent;
+    border: 1px solid #ff7300;
+    color: #ff7300;
+}
+
+.item-botoes button:nth-child(2){
+    background-color: #af1501;
+}
+
+.item-botoes button:nth-child(2):hover{
+    background-color: transparent;
+    border: 1px solid #af1501;
+    color: #af1501;
+}

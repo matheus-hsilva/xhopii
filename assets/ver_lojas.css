@@ -63,10 +63,11 @@
 
 .item-descricao p{
     font-size: 0.85rem;
-    color: #1e1e1e;
+    color: #787878;
 }
 
 .item-descricao p:first-child{
+    color: #1e1e1e;
     font-weight: 600;
     font-size: 1rem;
 }
