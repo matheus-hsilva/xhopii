@@ -47,6 +47,8 @@
 
 .clientes table th{
     padding: 15px 17px;
+    font-size: 0.9rem;
+    color: #787878;
 }
 
 .clientes table img{
