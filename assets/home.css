@@ -1,3 +1,9 @@
+html, body, header, footer, main, section, nav, div, h1, h2, p, ul, li, a, img, button, hr {
+    margin: 0;
+    padding: 0;
+}
+
+
 .descobertas{
     width: 100%;
     display: flex;
