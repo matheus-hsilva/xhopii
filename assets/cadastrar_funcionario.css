@@ -59,6 +59,7 @@
 .cadastro-formulario form input[type="file"]::file-selector-button{
     color: #fb4e0f;
     padding: 10px;
+    background-color: transparent;
     border: 1px solid #fb4e0f;
     border-radius: 12px;
     margin-right: 13px;
