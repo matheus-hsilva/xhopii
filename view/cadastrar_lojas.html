@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style.css">
-    <link rel="stylesheet" href="../assets/ver_cupons.css">
+    <link rel="stylesheet" href="../assets/cadastrar_lojas.css">
     <title>Xhopii</title>
 </head>
 <body>
-     <header class="cabecalho">
+   <header class="cabecalho">
         <nav class="cabecalho-info">
             <nav class="info-logo">
                  <img src="../assets/img/logo.png" alt="Logo da Xhopii">
@@ -28,96 +28,29 @@
                 <li><a href="ver_clientes.html">Ver Clientes</a></li>
                 <li><a href="ver_funcionarios.html">Ver Funcionários</a></li>
                 <li><a href="ver_lojas.html">Ver Lojas</a></li>
-                <li id="onde"><a href="ver_cupons.html">Ver Cupons</a></li>
-                <li><a href="ver_produtos.html">Ver Produtos</a></li>
+                <li><a href="ver_cupons.html">Ver Cupons</a></li>
+                <li id="onde"><a href="ver_produtos.html">Ver Produtos</a></li>
             </ul>
         </nav>
     </header>
-    <main class="cupons">
-        <section class="cupons-cadastro">
-            <a href="cadastrar_cupons.html">+ Cadastrar Novo Cupom</a>
-        </section>
-        <section class="cupons-cards">
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>BEMVINDO10</p>
-                    <p>R$ 10,00 de desconto</p>
-                    <p>Mínimo de compra: R$50,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>VERAO20</p>
-                    <p>20% de desconto</p>
-                    <p>Mínimo de compra: R$100,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>CLIENTE15</p>
-                    <p>15% de desconto</p>
-                    <p>Mínimo de compra: R$80,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>BEMVINDO10</p>
-                    <p>R$ 10,00 de desconto</p>
-                    <p>Mínimo de compra: R$50,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>VERAO20</p>
-                    <p>20% de desconto</p>
-                    <p>Mínimo de compra: R$100,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
-            <div class="cards-item">
-                <img src="../assets/img/cupom.png" alt="Logo da loja">
-                <div class="item-descricao">
-                    <p>CLIENTE15</p>
-                    <p>15% de desconto</p>
-                    <p>Mínimo de compra: R$80,00</p>
-                    <p>Válido até: 31/12/2026</p>
-                    <div class="item-botoes">
-                        <button>Editar</button>
-                        <button>Excluir</button>
-                    </div>
-                </div>
-            </div>
+    
+    <main class="cadastro">
+        <section class="cadastro-formulario">
+            <h2>Cadastrar Lojas</h2>
+            <form action="#">
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="CPF/CNPJ">
+                <input type="text" placeholder="Razão Social">
+                <input type="text" placeholder="Endereço">
+                <input type="tel" placeholder="Telefone">
+                <input type="date">
+                <label for="foto-perfil">Selecionar foto de perfil da loja:</label>
+                <input type="file">
+                <a href="ver_lojas.html">CADASTRAR</a>
+            </form>
         </section>
     </main>
+    
     <footer class="rodape"> 
         <section class="rodape-informacoes"> 
             <section class="rodape-atendimento">

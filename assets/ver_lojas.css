@@ -16,7 +16,8 @@
     width: 100%;
 }
 
-.lojas-cadastro button{
+.lojas-cadastro a{
+    text-decoration: none;
     border: 2px solid transparent;
     padding: 10px 15px;
     background-color: #ff7300;
@@ -26,7 +27,7 @@
     transition: 0.5s;
 }
 
-.lojas-cadastro button:hover{
+.lojas-cadastro a:hover{
     background-color: #ffffff;
     border: 2px solid #ff7300;
     color: #ff7300;
